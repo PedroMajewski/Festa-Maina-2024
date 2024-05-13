@@ -1,0 +1,122 @@
+:root{
+    --cor_fundo: #ebd3a0;
+}
+
+body{
+    background-color: #f1e2c0;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sect-intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--cor_fundo);
+    width: 50rem;
+}
+
+.div-intro-h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-intro-h1 h1{
+    font-size: 2.5rem;
+    color: #816425;
+    font-weight: 800;
+}
+
+.div-intro-h1 h2{
+    font-size: 2rem;
+    color: #1a1a1a;
+    font-weight: 400;
+    margin-top: 0.2rem;
+}
+
+.div-intro-h1 h3{
+    font-size: 1.2rem;
+    color: #1a1a1a;
+    font-weight: 300;
+}
+
+.div-intro-h1 h4{
+    color: #1a1a1a;
+    font-weight: 600;
+    margin-top: -0.5rem;
+}
+
+.Intro h5{
+    text-align: center;
+    color: #9e844b;
+    font-weight: 400;
+}
+
+.Intro button{
+    margin-bottom: 2rem;
+    background-color: #8a6924;
+    border: none;
+    padding: 1rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem #4738189c;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .2s;
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.Intro button:hover{
+    background-color: #9e7d35;
+    transition: .2s;
+}
+
+@media screen and (max-width:450px) {
+    .Intro{
+        height: 60rem;
+    }
+
+    .div-intro-h1 h1{
+        font-size: 2rem;
+    }
+
+    .div-intro-h1 h2{
+        font-size: 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+    .banner{
+        height: 350px;
+    }
+
+}
