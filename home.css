@@ -56,11 +56,6 @@ body{
     margin-top: -0.5rem;
 }
 
-.Intro h5{
-    text-align: center;
-    color: #9e844b;
-    font-weight: 400;
-}
 
 .Intro button{
     margin-bottom: 2rem;
@@ -77,6 +72,71 @@ body{
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     
+}
+
+.rodape{
+    text-align: center;
+    color: #9e734b;
+    font-weight: 400;
+}
+
+.programacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.programacao h1{
+    font-size: 1.5rem;
+    color: #1a1a1a;
+    font-weight: 600;
+    margin-top: 0.2rem;
+}
+
+.programacao h3{
+    font-size: 1rem;
+    color: #1a1a1a;
+    font-weight: 400;
+    margin-top: 0.2rem;
+}
+
+.tabela-programacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #daba76;
+    width: 80%;
+    margin-bottom: 2rem;
+
+    box-shadow: 0 0.5rem 0.5rem #4738184b;
+}
+
+.tabela-programacao h2{
+     color: #1a1a1a;
+     font-size: 1.3rem;
+}
+
+.info_tabela{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    text-align: end;
+    width: 90%;
+}
+
+.info_tabela h3{
+    font-weight: 800;
+    color: #61470f;
+    font-size: 0.9rem;
+}
+
+.info_tabela h4{
+    font-weight: 500;
+    color: #1a1a1a
 }
 
 @keyframes pulse {
