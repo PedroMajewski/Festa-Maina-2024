@@ -1,0 +1,251 @@
+:root{
+    --cor_fundo: #ebd3a0;
+    --cor_header: #ceb071;
+    --cor_btn:#dbb76a;
+    
+}
+
+body{
+    margin: 0;
+    transition: .2s;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--cor_fundo);
+}
+
+.header-pag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor_header);
+    padding: 0.5rem;
+    height: 3.2rem;
+    transition: .2s;
+    width: 100%;
+}
+
+.header-total{
+    position: fixed;
+    width: 100%;
+}
+
+.menu-escolha{
+    background-color: #d6bb7f;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.menu-escolha a{
+    padding: 0rem 0.3rem;
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+.header-pag h1{
+    color:#1a1a1a;
+    font-size: 1.3rem;
+    margin-left: 0.4rem;
+    font-weight: 500;
+}
+
+.header-pag img{
+    margin-right: 1rem;
+}
+
+.menu-categorias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.btn-categorias{
+    margin-top: 1rem;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color: var(--cor_btn);
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem 0rem;
+    width: 95%;
+    box-shadow: 0 0.5rem 1rem #4738189c;
+}
+
+.btn-categorias h2{
+    color: #1a1a1a;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.btn-categorias .seta{
+    rotate: 270deg;
+}
+
+.categoria_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+}
+
+.lista-produtos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: var(--cor_header);
+    padding: 1rem;
+    z-index: -1;
+    margin-top: -8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: .2s;
+    opacity: 1;
+    height: auto;
+    transition: .2s;
+}
+
+.card_1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 15rem;
+    width: 9rem;
+    background-color: antiquewhite;
+    border-radius: 0.3rem;
+    margin-top: 1rem;
+}
+
+.botao_tag{
+    border: none;
+    background-color: #e2c688;
+    padding: 0.6rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.botao_tag:hover{
+    background-color: #ac832c;
+}
+
+.desc-card{
+    text-align: center;
+}
+
+.desc-card h3{
+    color: #1a1a1a;
+    font-weight: 500;
+}
+
+.desc-card h4{
+    margin-top: 5px;
+    color: #694d10;
+}
+
+.desc-card h5{
+    font-weight: 400;
+    margin-top: -1rem;
+    margin-bottom: -0.2rem;
+}
+
+.header-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 9rem;
+}
+
+.header-principal h6{
+    margin-top: -0.5rem;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+    background-color: #ebd3a0;
+    padding: 0rem 1rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+.cart p{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dbb76a;
+    color: #fff;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+
+.sidebar{
+    height: 0;
+    overflow: hidden;
+    transition: .1s;
+}
+
+.sidebar.aberto{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #dbb76a;
+    transition: .5s;
+}
+
+.sidebar h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.carrinho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e2c688;
+    height: 5rem;
+    margin: 4rem;
+}
+
+.carrinho h3{
+    font-weight: 400;
+}
+
+
+
+.cartItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+bloc

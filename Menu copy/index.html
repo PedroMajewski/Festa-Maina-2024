@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorias - Festa Maína</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./categorias.css">
+    <link rel="icon" type="image/x-icon" href="../Home/Assets/fav-icon.png">
+</head>
+<body>
+    <header class="header-total">
+        <div class="header-pag">
+            <div style="display: flex; align-items: center;">
+                <a href="../index.html"><img src="./Assets/seta.svg" alt="" height="40"></a>
+                <h1>Categorias</h1>
+            </div>
+            <div class="cart" id="cart">
+                <img src="../Assets/cart-shopping-svgrepo-com.svg" alt="" height="25">
+                <p id="count">0</p>
+            </div>
+        </div>
+        <div class="menu-escolha">
+            <a href="#Bebidas">Bebidas</a>
+            <a href="#Doces">Doces</a>
+            <a href="#Lanches">Lanches</a>
+            <a href="#Porções">Porções</a>
+            <a href="#Comidas Típicas">Típicas</a>
+        </div>
+    </header>
+    <main>
+        <section class="sidebar">
+            <div class="head">
+                <img id="seta-sair" src="./Assets/seta.svg" alt="" height="40">
+                <h2>Lista de Produtos</h2>
+            </div>
+            <div id="cartItem" class="cartItem">Sua Lista está Vazia</div>
+            <div class="carrinho">
+                <h3>Total</h3>
+                <h2 id="total">R$0.00</h2>
+            </div>
+        </section>
+        <section class="header-principal">
+            <img src="../Assets/Logo.png" alt="" height="80">
+            <h2>Tabela de Preços</h2>
+            <h6>*Todas as Imagens são meramente Ilustrativas</h6>
+        </section>
+        <section class="menu-categorias" id="menu-categorias">
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
