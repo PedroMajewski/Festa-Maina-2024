@@ -92,20 +92,20 @@ const product = [
         items: [
             {
                 id: 9,
-                image: './Assets/Imagens/Bebidas Quentes/quentao.png',
+                image: './Assets/Imagens/Bebidas_Quentes/quentao.png',
                 title: 'Quentão',
                 description: '300ml',
                 price: 7.00,
             },
             {
                 id: 10,
-                image: './Assets/Imagens/Bebidas Quentes/amendoin.png',
+                image: './Assets/Imagens/Bebidas_Quentes/amendoin.png',
                 title: 'Chá de Amendoim',
                 price: 7.00,
             },
             {
                 id: 11,
-                image: './Assets/Imagens/Bebidas Quentes/Chocolate quente.png',
+                image: './Assets/Imagens/Bebidas_Quentes/Chocolate quente.png',
                 title: 'Chocolate Quente',
                 price: 7.00,
             },
@@ -154,7 +154,7 @@ const product = [
             },
             {
                 id: 18,
-                image: './Assets/Imagens/Comidas_tipicas/mini pizza.png',
+                image: './Assets/Imagens/Comidas_tipicas/mini_pizza.png',
                 title: 'Mini Pizza',
                 price: 10.00,
             },
@@ -215,7 +215,7 @@ const product = [
             },
             {
                 id: 27,
-                image: './Assets/Imagens/Doces/cri cri.png',
+                image: './Assets/Imagens/Doces/cricri.png',
                 title: 'CriCri',
                 price: 10.00,
             },
@@ -434,6 +434,7 @@ function delElement(index) {
     displaycart();
 }
 
+
 function displaycart() {
     let total = 0;
     document.getElementById("count").innerHTML = cart.length;
@@ -448,7 +449,7 @@ function displaycart() {
                     <div class='row-img'>
                         <img class='rowimg' src=${item.image} height="60" width="60">
                     </div>
-                    <p style='font-size:12px;'>${item.title}</p>
+                    <p style='font-size:15px;'>${item.title}</p>
                     <h2 style='font-size: 15px;'>R$ ${item.price}.00</h2>
                     <i  onclick='delElement(${index})'><img src="../Assets/trash-undo-alt-svgrepo-com.svg" alt="" height="30"></i>
                 </div>
