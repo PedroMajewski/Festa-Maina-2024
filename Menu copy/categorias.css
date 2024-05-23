@@ -57,10 +57,8 @@ body{
 
 .menu-categorias{
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100%;
 }
 
 .btn-categorias{
@@ -72,8 +70,9 @@ body{
     border: none;
     border-radius: 5px;
     padding: 0.3rem 0rem;
-    width: 95%;
     box-shadow: 0 0.5rem 1rem #4738189c;
+    margin: 0 1rem;
+    border-top: 5rem;
 }
 
 .btn-categorias h2{
@@ -100,20 +99,18 @@ body{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 85%;
     background-color: transparent;
     border-style: solid;
     border-width: 0.2rem;
     border-color: var(--cor_header);
-    padding: 1rem;
-    z-index: -1;
+    padding: 0.5rem;
     margin-top: -8px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     transition: .2s;
     opacity: 1;
-    height: auto;
     transition: .2s;
+    margin: 0 1rem;
 }
 
 .card_1{
@@ -272,4 +269,17 @@ body{
     margin: 1rem;
     width: 95%;
     flex: 1;
+}
+
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #9e734b;
+    font-weight: 400;
+}
+
+.espaco{
+    margin-top: 4rem;
 }

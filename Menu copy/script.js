@@ -179,7 +179,7 @@ const product = [
             },
             {
                 id: 21,
-                image: './Assets/Imagens/Doces/bolo de pote.png',
+                image: './Assets/Imagens/Doces/bolodepote.png',
                 title: 'Bolo de Pote',
                 price: 10.00,
             },
@@ -396,7 +396,6 @@ const product = [
 document.getElementById('menu-categorias').innerHTML = product.map((category, categoryIndex) => {
     const { image_classe, items, title } = category;
     return `
-        <div class = "blocos">
             <button class="btn-categorias" id="${title}">
                 <img src="${image_classe}" alt="" height="45">
                 <h2>${title}</h2>
@@ -417,7 +416,8 @@ document.getElementById('menu-categorias').innerHTML = product.map((category, ca
                     `;
                 }).join('')}
             </div>
-        </div>
+            <div class = "espaco">
+            </div>
     `;
 }).join('');
 
@@ -456,17 +456,4 @@ function displaycart() {
         }).join('');
         document.getElementById("total").innerHTML = "R$ " + total.toFixed(2);
     }
-}
-
-window.onscroll = function() {myFunction()};
-
-var header = document.getElementById("sidebar");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
 }
