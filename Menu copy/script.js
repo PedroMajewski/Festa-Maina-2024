@@ -310,7 +310,7 @@ const product = [
         items: [
             {
                 id: 40,
-                image: './Assets/Imagens/Porcoes/batata frita.png',
+                image: './Assets/Imagens/Porcoes/batata_frita.png',
                 title: 'Batata Frita',
                 price: 30.00,
             },
@@ -367,21 +367,21 @@ const product = [
             },
             {
                 id: 49,
-                image: './Assets/Imagens/Porcoes/batata chips.png',
+                image: './Assets/Imagens/Porcoes/batata_chips.png',
                 title: 'Batata Chips',
                 description: 'Pequena',
                 price: 10.00,
             },
             {
                 id: 50,
-                image: './Assets/Imagens/Porcoes/batata chips.png',
+                image: './Assets/Imagens/Porcoes/batata_chips.png',
                 title: 'Batata Chips',
                 description: 'Média',
                 price: 15.00,
             },
             {
                 id: 51,
-                image: './Assets/Imagens/Porcoes/batata chips.png',
+                image: './Assets/Imagens/Porcoes/batata_chips.png',
                 title: 'Batata Chips',
                 description: 'Grande',
                 price: 20.00,
