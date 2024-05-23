@@ -446,14 +446,27 @@ function displaycart() {
             return `
                 <div class='cart_item'>
                     <div class='row-img'>
-                        <img class='rowimg' src=${item.image}>
+                        <img class='rowimg' src=${item.image} height="60" width="60">
                     </div>
                     <p style='font-size:12px;'>${item.title}</p>
                     <h2 style='font-size: 15px;'>R$ ${item.price}.00</h2>
-                    <i class='fa-solid fa-trash' onclick='delElement(${index})'></i>
+                    <i  onclick='delElement(${index})'><img src="../Assets/trash-undo-alt-svgrepo-com.svg" alt="" height="30"></i>
                 </div>
             `;
         }).join('');
         document.getElementById("total").innerHTML = "R$ " + total.toFixed(2);
     }
+}
+
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("sidebar");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
 }

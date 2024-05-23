@@ -208,9 +208,12 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     background-color: #dbb76a;
     transition: .5s;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .sidebar h2{
@@ -227,6 +230,7 @@ body{
     background-color: #e2c688;
     height: 5rem;
     margin: 4rem;
+    border-radius: 8px;
 }
 
 .carrinho h3{
@@ -239,7 +243,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    flex-direction: column;
+    margin: 1rem;
+    border-radius: 8px;
+    flex-direction: column;
 }
 
 .head{
@@ -248,4 +255,21 @@ body{
     justify-content: center;
 }
 
-bloc
+.sidebar h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    margin-top: -1rem;
+}
+
+.cart_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background-color:#e2c688;
+    margin: 1rem;
+    width: 95%;
+    flex: 1;
+}
