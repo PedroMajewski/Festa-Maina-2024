@@ -21,6 +21,7 @@ const product = [
                 image: './Assets/Imagens/pesca.png',
                 title: 'Pescaria',
                 price: 10.00,
+                description: '',
             }
         ]
     },
@@ -40,12 +41,14 @@ const product = [
                 image: './Assets/bebidas.png',
                 title: 'Coca-Cola',
                 price: 5.00,
+                description: '',
             },
             {
                 id: 3,
                 image: './Assets/Imagens/guaraná.png',
                 title: 'Guaraná',
                 price: 5.00,
+                description: '',
             },
             {
                 id: 4,
@@ -102,12 +105,14 @@ const product = [
                 image: './Assets/Imagens/Bebidas_Quentes/amendoin.png',
                 title: 'Chá de Amendoim',
                 price: 7.00,
+                description: '',
             },
             {
                 id: 11,
-                image: './Assets/Imagens/Bebidas_Quentes/Chocolate quente.png',
+                image: './Assets/Imagens/Bebidas_Quentes/Chocolate_quente.png',
                 title: 'Chocolate Quente',
                 price: 7.00,
+                description: '',
             },
         ]
     },
@@ -120,30 +125,35 @@ const product = [
                 image: './Assets/Imagens/Comidas_tipicas/caldo.png',
                 title: 'Caldo de Feijão',
                 price: 5.00,
+                description: '',
             },
             {
                 id: 13,
                 image: './Assets/Imagens/Lanches/guadalupe.png',
                 title: 'Pão de Guadalupe',
                 price: 12.00,
+                description: '',
             },
             {
                 id: 14,
                 image: './Assets/Imagens/Comidas_tipicas/espeto.png',
                 title: 'Espetinho',
                 price: 10.00,
+                description: '',
             },
             {
                 id: 15,
                 image: './Assets/Imagens/Comidas_tipicas/milho.png',
                 title: 'Milho',
                 price: 5.00,
+                description: '',
             },
             {
                 id: 16,
                 image: './Assets/Imagens/Comidas_tipicas/pastel.png',
                 title: 'Pastel',
                 price: 8.00,
+                description: '',
             },
             {
                 id: 17,
@@ -157,6 +167,7 @@ const product = [
                 image: './Assets/Imagens/Comidas_tipicas/mini_pizza.png',
                 title: 'Mini Pizza',
                 price: 10.00,
+                description: '',
             },
         ]
     },
@@ -169,6 +180,7 @@ const product = [
                 image: './Assets/Imagens/Doces/arroz-doce.png',
                 title: 'Arroz Doce',
                 price: 5.00,
+                description: '',
             },
             {
                 id: 20,
@@ -182,42 +194,49 @@ const product = [
                 image: './Assets/Imagens/Doces/bolodepote.png',
                 title: 'Bolo de Pote',
                 price: 10.00,
+                description: '',
             },
             {
                 id: 22,
                 image: './Assets/Imagens/Doces/Canjica.png',
                 title: 'Canjica',
                 price: 5.00,
+                description: '',
             },
             {
                 id: 23,
                 image: './Assets/Imagens/Doces/churros.png',
                 title: 'Churros',
                 price: 13.00,
+                description: '',
             },
             {
                 id: 24,
                 image: './Assets/Imagens/Doces/churros.png',
                 title: 'Churros Gourmet',
                 price: 20.00,
+                description: '',
             },
             {
                 id: 25,
                 image: './Assets/Imagens/Doces/cocada.png',
                 title: 'Cocada',
                 price: 10.00,
+                description: '',
             },
             {
                 id: 26,
                 image: './Assets/Imagens/Doces/crepe.png',
                 title: 'Crepe Suíço',
                 price: 20.00,
+                description: '',
             },
             {
                 id: 27,
                 image: './Assets/Imagens/Doces/cricri.png',
                 title: 'CriCri',
                 price: 10.00,
+                description: '',
             },
             {
                 id: 28,
@@ -231,6 +250,7 @@ const product = [
                 image: './Assets/Imagens/Doces/maça.png',
                 title: 'Maça do Amor',
                 price: 8.00,
+                description: '',
             },
             {
                 id: 30,
@@ -244,6 +264,7 @@ const product = [
                 image: './Assets/Imagens/Doces/pamonha.png',
                 title: 'Pamonha',
                 price: 15.00,
+                description: '',
             },
             {
                 id: 32,
@@ -263,6 +284,7 @@ const product = [
                 image: './Assets/Imagens/Lanches/Costela.png',
                 title: 'Costela no Baguete',
                 price: 35.00,
+                description: '',
             },
             {
                 id: 34,
@@ -276,30 +298,35 @@ const product = [
                 image: './Assets/Imagens/Lanches/cachorro.png',
                 title: 'Cachorro Quente',
                 price: 12.00,
+                description: '',
             },
             {
                 id: 36,
                 image: './Assets/Imagens/Lanches/shawarma.png',
                 title: 'Shawarma',
                 price: 30.00,
+                description: '',
             },
             {
                 id: 37,
                 image: './Assets/Imagens/Lanches/bacon2.png',
                 title: 'X-Bacon',
                 price: 30.00,
+                description: '',
             },
             {
                 id: 38,
                 image: './Assets/Imagens/Lanches/bacon.png',
                 title: 'X-Calabresa',
                 price: 30.00,
+                description: '',
             },
             {
                 id: 39,
                 image: './Assets/Imagens/Lanches/salada.png',
                 title: 'X-Salada',
                 price: 25.00,
+                description: '',
             },
         ]
     },
@@ -313,12 +340,14 @@ const product = [
                 image: './Assets/Imagens/Porcoes/batata_frita.png',
                 title: 'Batata Frita',
                 price: 30.00,
+                description: '',
             },
             {
                 id: 41,
                 image: './Assets/Imagens/Porcoes/Feijuca.png',
                 title: 'Feijoada',
                 price: 40.00,
+                description: '',
             },
             {
                 id: 42,
@@ -333,24 +362,28 @@ const product = [
                 title: 'Torresmo de Rolo',
                 description: 'A partir das 16h',
                 price: 30.00,
+                
             },
             {
                 id: 44,
                 image: './Assets/Imagens/Porcoes/~frango.png',
                 title: 'Frango à passarinho',
                 price: 40.00,
+                description: '',
             },
             {
                 id: 45,
                 image: './Assets/Imagens/Porcoes/~frango+fritas.png',
                 title: 'Frango + fritas',
                 price: 50.00,
+                description: '',
             },
             {
                 id: 46,
                 image: './Assets/Imagens/Porcoes/costela.png',
                 title: 'Costela Defumada com Mandioca',
                 price: 50.00,
+                description: '',
             },
             {
                 id: 47,
@@ -363,6 +396,7 @@ const product = [
                 id: 48,
                 image: './Assets/Imagens/Porcoes/yakissoba.png',
                 title: 'Yakissoba',
+                description: '',
                 price: 30.00,
             },
             {
@@ -391,8 +425,6 @@ const product = [
     // Adicione mais categorias aqui
 ];
 
-
-
 document.getElementById('menu-categorias').innerHTML = product.map((category, categoryIndex) => {
     const { image_classe, items, title } = category;
     return `
@@ -403,13 +435,14 @@ document.getElementById('menu-categorias').innerHTML = product.map((category, ca
             </button>
             <div class="lista-produtos" id="lista-produtos">
                 ${items.map((item, itemIndex) => {
-                    const { image, title, price } = item;
+                    const { image, title, price, description } = item;
                     return `
                         <div class='card_1'>
                             <img src="${image}" alt="" height="60" width="60">
                             <div class='desc-card'>
                                 <h3>${title}</h3>
                                 <h4>R$ ${price}.00</h4>
+                                <h6>${description}</h6>
                                 <button class="botao_tag" onclick='addtocart(${categoryIndex}, ${itemIndex})'>Adicionar a Lista</button>
                             </div>
                         </div>
