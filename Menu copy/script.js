@@ -61,7 +61,7 @@ const product = [
                 id: 5,
                 image: './Assets/Imagens/suco.png',
                 title: 'Suco',
-                description: 'Dell Vale 290ml',
+                description: 'Suco 290ml',
                 price: 5.00,
             },
             {
