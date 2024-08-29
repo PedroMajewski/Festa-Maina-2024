@@ -13,3 +13,7 @@ O projeto contou com o desenvolvimento de um website, que incluia:
   - CSS 3
   - Javascript Dinâmico
   - Javascript DOM
+
+Resultado: 
+
+No geral o projeto teve pouco mais de 900 usuários diários dentre os 3 dias de festa, algo que foi muito valorizado e agilizou na organização do evento comoi um todo, evitando um volume maior de filas nos caixas do evento.
