@@ -153,13 +153,6 @@ const product = [
                 description: 'Copo 350ml',
                 price: 10.00,
             },
-            {
-                id: 18,
-                image: './Assets/Imagens/Comidas_tipicas/mini_pizza.png',
-                title: 'Mini Pizza',
-                price: 10.00,
-                description: '',
-            },
         ]
     },
     {
